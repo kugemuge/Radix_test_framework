@@ -10,7 +10,9 @@ API 1=`GET http://localhost:8080/hashes`
 API 2=`GET http://localhost:8080/piece/:hashId/:pieceIndex`
 
 N =Total count of pieces
----
+
+
+___
 
 1.Verify that User receiving merkel root and total count of pieces in API 1 call.
 
