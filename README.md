@@ -15,9 +15,7 @@ N =Total count of pieces
 ___
 
 1.Verify that User receiving merkel root and total count of pieces in API 1 call.
-
 2.Verify that contest and proof are received in response after caliing API 2 with merkle hash root and piece index.
-
 3.Verify that http request gives 200 status when user gives peiceindex as Total count of pieces(N)-1.
 
 4.Verify that http request gives 404 status when user gives peiceindex as Total count of pieces(N).
