@@ -10,7 +10,7 @@ API 1=`GET http://localhost:8080/hashes`
 API 2=`GET http://localhost:8080/piece/:hashId/:pieceIndex`
 
 N =Total count of pieces
-
+---
 
 1.Verify that User receiving merkel root and total count of pieces in API 1 call.
 
@@ -29,7 +29,7 @@ N =Total count of pieces
 8.Verify that server 'merkle-tree-java.jar'works for all type of files and total number of pieces value equal to file size divided by 1kb.
 
 9.Verify that elements(count) of proof in response gets change as file size changed.
-
+***
 
 
 *Scenarios 3 and 4 can be automated by reusing step defination for status check and creating new generic step defination to pass piece index as per scenario as per pieces count .
